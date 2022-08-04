@@ -87,7 +87,7 @@ type RsyncOptions struct {
 	Specials bool
 	// Times preserve modification times
 	Times bool
-	// NoTimes preserve modification times
+	// NoTimes prevent copying modification times
 	NoTimes bool
 	// omit directories from --times
 	OmitDirTimes bool
